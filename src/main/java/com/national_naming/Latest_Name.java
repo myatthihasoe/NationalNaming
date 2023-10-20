@@ -25,7 +25,7 @@ public class Latest_Name{
         LinkedList<Naming>maxnamelst=new LinkedList<>(nlst);
         Collections.sort(maxnamelst,Comparator.comparing(Naming::getName)); //Collections.reverseOrder Descending order
 
-        // copy paste from Top ten names
+        // copy and paste from Top ten names
         Collections.sort(namelist,Collections.reverseOrder(Comparator.comparing(Naming::getCount)));
         System.out.println("Latest Name");
         System.out.println("==============");
